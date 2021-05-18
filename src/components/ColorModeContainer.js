@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { DarkModeContext } from "../contexts/DarkModeContext"
+import { DarkModeContext } from "../context/DarkModeContext"
 import ColorModeSwitcher from "./ColorModeSwitcher"
 
 const ColorModeContainer = ({ children }) => {

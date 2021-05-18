@@ -1,4 +1,4 @@
-import { useDarkMode } from "../contexts/DarkModeContext"
+import { useDarkMode } from "../context/DarkModeContext"
 
 const ColorModeSwitcher = ({ setDarkMode }) => {
   const handleModeChange = () => {
