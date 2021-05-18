@@ -2,7 +2,7 @@ import React, { useEffect, useReducer } from "react"
 import TodosList from "./TodosList"
 import AddTodoForm from "./AddTodoForm"
 import { todosReducer } from "../reducers/todosReducer"
-import { TodosDispatchContext } from "../context/TodosDispatchContext"
+import { TodosDispatchContext } from "../contexts/TodosDispatchContext"
 
 const initialTodos = [
   {

@@ -1,4 +1,4 @@
-import { useTodosDispatch } from "../context/TodosDispatchContext"
+import { useTodosDispatch } from "../contexts/TodosDispatchContext"
 
 const ToggleTodo = ({ todo }) => {
   const dispatch = useTodosDispatch()

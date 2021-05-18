@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid"
-import { useDarkMode } from "../context/DarkModeContext"
-import { useTodosDispatch } from "../context/TodosDispatchContext"
+import { useDarkMode } from "../contexts/DarkModeContext"
+import { useTodosDispatch } from "../contexts/TodosDispatchContext"
 
 const AddTodoForm = () => {
   const darkMode = useDarkMode()

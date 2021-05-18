@@ -1,4 +1,4 @@
-import { useTodosDispatch } from "../context/TodosDispatchContext"
+import { useTodosDispatch } from "../contexts/TodosDispatchContext"
 
 const DeleteTodo = ({ todo }) => {
   const dispatch = useTodosDispatch()
